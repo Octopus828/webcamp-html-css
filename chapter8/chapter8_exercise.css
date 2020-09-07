@@ -10,12 +10,10 @@ main {
 }
 
 .item-list {
-  width: 960px;
   margin-bottom: 50px;
 }
 
 .item {
-  width: 960px;
   padding: 20px;
   color: #6c6b6b;
   list-style: none;
@@ -25,14 +23,10 @@ main {
   background-color: #f7f7f7;
 }
 
-.box-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .box {
   width: 30%;
   height: 200px;
   background-color: #FFF01A;
   margin: 0 5% 40px 0;
+  float: left;
 }
