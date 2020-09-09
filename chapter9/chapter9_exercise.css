@@ -15,6 +15,48 @@ main {
   margin: 50px auto;
 }
 
+.contents-box {
+  width: 300px;
+  padding: 10px;
+  background-color: #f1f4f8;
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+}
+
+.contents-box:last-child {
+  margin-right: 0;
+}
+
+.step1-img {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step2-img {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step3-img {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-label {
+  background-color: #ff9a4b;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 footer {
   width: 100%;
   height: 50px;
