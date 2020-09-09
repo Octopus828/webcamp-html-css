@@ -13,13 +13,13 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
+  display: flex;
 }
 
 .contents-box {
   width: 300px;
   padding: 10px;
-  background-color: #f1f4f8;
-  display: inline-block;
+  background-color: #eee;
   margin-right: 30px;
   position: relative;
 }
@@ -55,6 +55,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 3px;
 }
 
 .step-title {
@@ -64,5 +65,5 @@ main {
 footer {
   width: 100%;
   height: 50px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
