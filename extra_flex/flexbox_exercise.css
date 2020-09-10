@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: magenta;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-contents {
+  height: 70px;
+  flex-basis: 140px;
+  background-color: plum;
+  margin: 0 10px;
+}
+
+.header-contents:first-child {
+  margin-right: auto;
+}
+
+main {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: mediumaquamarine
+}
+
+.box-zone {
+  width: 700px;
+  padding: 20px;
+}
