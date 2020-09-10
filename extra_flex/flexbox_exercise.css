@@ -24,7 +24,6 @@ header {
 }
 
 main {
-  width: 1000px;
   display: flex;
   justify-content: center;
 }
@@ -35,6 +34,35 @@ main {
 }
 
 .box-zone {
-  width: 700px;
+  max-width: 700px;
   padding: 20px;
+  background-color: limegreen;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.yellow-box {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: dodgerblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-contents {
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  background-color: lightblue;
+  margin: 10px;
 }
